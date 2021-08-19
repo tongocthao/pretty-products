@@ -1,0 +1,58 @@
+/*
+
+- *Typefaces:* `Karma`, `Oswald`
+- *Text sizes:* `1.4rem`, `2rem`
+- *Line-heights:* `1.5`
+- *Colours:* `#6f00e7`, `#987ffa`, `#000`
+- *Gaps:* `1rem`
+- *Margins:* `.25em`, `1.5rem`
+- *Paddings:* `.5em 1.5em .7em`, `.25em`, `1rem`
+- *Border thicknesses:* `3px`
+- *Corner-radii:* `3em`, `6px`
+
+*/
+
+html {
+  box-sizing: border-box;
+  font-family: 'Karma', serif;
+  font-family: 'Oswald', sans-serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+h2 {
+  font-family: 'Oswald', sans-serif;
+  color: #6f00e7;
+  margin: 0;
+}
+
+main {
+  gap: 1rem;
+  margin: .6em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+main > figure {
+  flex-direction: column;
+  border: 3px solid #987ffa;
+  display: flex;
+  border-radius: 6px;
+  justify-content: space-between;
+  padding: .7rem;
+  margin: 0;
+  align-items: center;
+}
+
+p {
+  margin: .25rem 0;
+  padding: .2rem;
+}
