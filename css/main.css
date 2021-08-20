@@ -35,10 +35,9 @@ li {
 
 .cart-button {
   background-color: #6f00e7;
-  padding: .5rem;
+  padding: .25rem;
   color: white;
   border-radius: 3em;
-
 }
 
 ul > li {
@@ -46,10 +45,12 @@ ul > li {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  margin-top: .4em;
 }
 
 li img {
-  width: 70%;
+  width: 68.5%;
+  margin-top: .7em;
 }
 
 h2 {
@@ -59,6 +60,7 @@ h2 {
   font-size: 2rem;
   text-align: center;
   font-weight: 900;
+  margin-top: .5em;
 }
 
 main ul {
